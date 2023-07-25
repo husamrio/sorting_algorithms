@@ -34,7 +34,7 @@ else
 *
 * Description: Prints the list after each swap.
 */
-void insertion_sort_listhaw(listint_t **list)
+void insertion_sort_list(listint_t **list)
 
 {
 listint_t *iter, *insert, *tmp;
