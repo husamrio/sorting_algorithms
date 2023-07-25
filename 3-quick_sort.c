@@ -57,7 +57,7 @@ if (array[down] < *driver)
 {
 if (up < down)
 {
-swap_ints(array + down, array + up);
+swap_intshaw(array + down, array + up);
 print_array(array, size);
 }
 up++;
@@ -66,7 +66,7 @@ up++;
 
 if (array[up] > *driver)
 {
-swap_ints(array + up, driver);
+swap_intshaw(array + up, driver);
 print_array(array, size);
 }
 
