@@ -53,7 +53,7 @@ void bubble_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
-void swap_intshaw(int *a, int *b);
+void exchange_intshaw(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);

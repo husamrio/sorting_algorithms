@@ -6,7 +6,7 @@
 * @b: The 2nd integ to swap.
 */
 
-void swap_intshaw(int *a, int *b)
+void exchange_intshaw(int *a, int *b)
 {
 int tmp;
 
@@ -39,7 +39,7 @@ min = (array[k] < *min) ? (array + k) : min;
 
 if ((array + j) != min)
 {
-swap_intshaw(array + j, min);
+exchange_intshaw(array + j, min);
 print_array(array, size);
 }
 }
